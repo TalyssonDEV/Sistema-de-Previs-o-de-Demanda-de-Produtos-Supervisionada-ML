@@ -179,7 +179,7 @@ def processar_produto(caminho_dados, nome_produto, usar_exogenas=False):
 
 def main():
     processar_produto('database/hist_prev_gasolina.csv', 'Gasolina', usar_exogenas=False)
-    processar_produto('database/hist_prev_middle.csv', 'Middle (Diesel)', usar_exogenas=False)
+    processar_produto('database/hist_prev_middle.csv', 'Diesel', usar_exogenas=False)
     plt.show()
 
 if __name__ == '__main__':
